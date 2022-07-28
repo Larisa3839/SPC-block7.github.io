@@ -959,6 +959,9 @@ template {
       background: #FFFFFF;
       border: 1px solid #EAEAEA;
       border-radius: 6px; }
+      @media (max-width: 767px) {
+        .prices__swiper .swiper-wrapper .swiper-slide {
+          padding: 16px; } }
       @media (min-width: 768px) {
         .prices__swiper .swiper-wrapper .swiper-slide {
           align-items: center;
